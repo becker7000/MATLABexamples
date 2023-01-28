@@ -1,0 +1,20 @@
+Comandos básicos de MATLAB:
+
+clear: sirve para limpiar las variables del workspace
+clc: sirver para limpirar la ventana de comandos
+
+Los archivos de MATLAB llevan la extensión .m
+
+Reglas de nombramiento de variables en MATLAB:
+ 1. Todas las variables deben iniciar con una letra.
+ 2. Puede iniciar con minúscula o mayúscula.
+ 3. No se puede iniciar el nombre con un caracter.
+ 4. Los nombres no deben tener más de 63 caracteres.
+ 5. Los únicos caracteres permitidos son letras, números y guión bajo
+    (esta regla también aplica para los nombres de scripts y funciones).
+ 6. MATLAB es case sensitive.
+ 7. Los nombres no pueden ser keywords. (Use comando iskeyword)
+ 8. Está permitido asignar un nombre que sea nombre de una función.
+    (Ejemplo, existe la función 'sin()', pero podemos crear 'sin=41;')
+    (Pero debemos evitarlo porque se pierde la posibilidad de usar 'sin()')
+
